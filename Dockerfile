@@ -1,4 +1,6 @@
  # Dockerfile
- FROM php:8.0-apache 
-COPY ./var/www/html/
+FROM php:8.0-apache
+
+COPY . /var/www/html/
+
 EXPOSE 80
